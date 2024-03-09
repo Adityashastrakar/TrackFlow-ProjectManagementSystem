@@ -1,0 +1,13 @@
+#sidebar:hover {
+    background-color: rgba(242, 0, 0, 0.099);
+    cursor: pointer;
+}
+
+#sidebar {
+    grid-area: sidebar;
+    height: 100%;
+    background-color: #263043;
+    overflow-y: auto;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}  
